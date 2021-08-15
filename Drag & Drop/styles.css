@@ -36,10 +36,15 @@ body {
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
   border-radius: 20px;
   background: #f7f6f7;
-  padding: 0.8rem 1rem;
+  padding: 10% 1rem;
   color: #828282;
   text-align: center;
   cursor: grab;
+  
+}
+
+P {
+  margin: 0;
 }
 
 .item:active {
@@ -64,7 +69,11 @@ body {
 }
 
 .hold {
-  border: 5px solid #eee;
+  border: 1px solid black;
+  width: 130%;
+  height: 130%;
+  background-color: white;
+  padding: 20%;
 }
 
 .hide {
@@ -72,5 +81,6 @@ body {
 }
 
 .hovered {
-  border-top: 2px solid #8ed7ed;
+  border: 1px dashed grey;
+  border-radius: 20px;
 }
